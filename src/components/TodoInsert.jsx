@@ -33,7 +33,7 @@ function TodoInsert(props) {
           ref={ref}
           type="text"
           name="text"
-          placeholder="내용을 입력하세요"
+          placeholder="추가할 내용을 입력하세요"
           value={content}
           onChange={handleChange}
         />
@@ -68,7 +68,6 @@ const TextInput = styled.input`
   }
   &::placeholder {
     color: #d8e3e7;
-    font-style: italic;
   }
 `;
 

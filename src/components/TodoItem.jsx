@@ -12,13 +12,14 @@ function TodoItem({ todo, onRemove, onToggle }) {
       <Topic
         style={{
           textDecoration: checked ? "line-through" : null,
-          color: checked ? "#ccc" : "#000",
+          color: checked ? "#ff6969" : "#000",
+          backgroundColor: checked ? "#c1c1c1" : "#FFF",
         }}
       >
         {text}
       </Topic>
       <DeleteButton onClick={() => onRemove(id)}>
-        <DeleteImg src="./img/trash.png" />
+        <DeleteImg src="./img/del.png" />
       </DeleteButton>
     </Container>
   );
@@ -57,7 +58,7 @@ const Topic = styled.p`
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 330px;
+  width: 350px;
   height: 30px;
   padding: 0 10px;
   margin: 0 10px;

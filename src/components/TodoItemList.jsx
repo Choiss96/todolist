@@ -24,7 +24,7 @@ const Container = styled.div`
   padding: 10px;
   margin: 20px 10px;
   height: 460px;
-  overflow: scroll;
+  overflow: auto;
 `;
 
 export default TodoItemList;

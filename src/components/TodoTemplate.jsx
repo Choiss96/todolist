@@ -47,8 +47,8 @@ function TodoTemplate() {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 650px;
+  width: 45vw;
+  height: 90vh;
   border: 3px solid orange;
   border-radius: 20px;
   background-color: #fff;
