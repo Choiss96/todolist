@@ -18,7 +18,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: #848484;
     color: black;
-    border-color: aquamarine;
   }
 `;
 
